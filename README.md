@@ -10,6 +10,7 @@
 
 * Check Installation:
 * go version
+
 go version go1.12.9 windows/amd64
 
 * Set GOPATH:
@@ -17,7 +18,6 @@ go version go1.12.9 windows/amd64
 λ env
 GOPATH=C:\Users\KUMAM048\go
 
-C:\dev\tools\cmder_mini
 λ setx GOPATH C:\dev\projects\gcp\go-work
 
 SUCCESS: Specified value was saved.
@@ -26,7 +26,8 @@ SUCCESS: Specified value was saved.
 ## Running ##
 
 * Check/display GOPATH:
-echo %GOPATH%
+* echo %GOPATH%
+
 C:\dev\projects\gcp\go-work
 
 * Run the main.go with this command, no appengine package is necessary:
