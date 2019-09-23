@@ -15,9 +15,6 @@ go version go1.12.9 windows/amd64
 
 * Set GOPATH:
 
-λ env
-GOPATH=C:\Users\KUMAM048\go
-
 λ setx GOPATH C:\dev\projects\gcp\go-work
 
 SUCCESS: Specified value was saved.
