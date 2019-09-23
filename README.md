@@ -5,12 +5,12 @@
 
 ## Installation ##
 
-* Install from:
-https://golang.org/doc/install?download=go1.12.windows-amd64.msi
+* Install Go from:
+* https://golang.org/doc/install?download=go1.12.windows-amd64.msi
 
 * Check Installation:
-go version
-go version go1.11 windows/amd64
+* go version
+go version go1.12.9 windows/amd64
 
 * Set GOPATH:
 
