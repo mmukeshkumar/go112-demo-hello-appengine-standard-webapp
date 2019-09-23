@@ -1,8 +1,7 @@
 ## Summary ##
 
 * Based of : https://cloud.google.com/appengine/docs/standard/go112/go-differences?hl=en_US&_ga=2.20433713.-840675048.1567617504
-* The appengine package and the google.golang.org/appengine package are no longer supported
-
+* https://github.com/GoogleCloudPlatform/golang-samples/tree/master/appengine/go11x/helloworld
 
 ## Installation ##
 
@@ -31,7 +30,7 @@ echo %GOPATH%
 C:\dev\projects\gcp\go-work
 
 * Run the main.go with this command, no appengine package is necessary:
-go run main.go
+* go run main.go
 
 ## Testing ##
 * Open browser and enter: http://localhost:8080/?name=Mukesh
