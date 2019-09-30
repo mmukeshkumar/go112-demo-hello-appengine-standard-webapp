@@ -9,7 +9,8 @@
 * https://golang.org/doc/install?download=go1.12.windows-amd64.msi
 
 * Check Installation:
-* go version
+
+λ go version
 
 go version go1.12.9 windows/amd64
 
@@ -35,7 +36,9 @@ C:\dev\projects\gcp\go-work
 
 
 ## Deploying ##
-
+* Install gcloud sdk
+* Open cmd prompt and enter: gcloud login to login and for setting up your config enter: gcloud init
+* enter to add gcp project: gcloud config set project "enter your gcp project name here"
 * Install app-engine-go gcloud component
 * gcloud components install app-engine-go
 * gcloud app deploy
